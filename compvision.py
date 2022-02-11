@@ -5,4 +5,3 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 
 print(image.shape)
-cv2.imwrite("Messi1.jpg", image)
