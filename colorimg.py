@@ -9,3 +9,4 @@ cv2.imshow("Blue_Image",B)
 cv2.imshow("Green_Image",G)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
