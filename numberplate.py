@@ -11,3 +11,9 @@ for c in ctn:
     peri=cv2.arcLength(c,True)
     epsilon = 0.018*peri
     approx=cv2.approxPolyDP(c,epsilon,True)
+    if len(approx)==4:
+        final=cv2.drawContours(img,[approx],-1,(255,0,0),3)
+        break
+
+cv2.imshow("Number Plate Detected",img)
+cv2.waitKey(0)
