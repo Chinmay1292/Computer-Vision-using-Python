@@ -32,3 +32,7 @@ for i in range(int(height/2), int(height/-2),  -1):
             my_pen.penup()
             my_pen.forward(1)
     my_screen.update()
+
+my_pen.hideturtle()
+
+turtle.done()
